@@ -1,0 +1,4 @@
+anthropic>=0.39.0
+python-dotenv>=1.0.0
+pytest>=7.4.0  # Pour tests automatisés
+rich>=13.0.0   # Pour output formaté coloré

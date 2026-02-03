@@ -1,0 +1,50 @@
+{
+  "id": "acip-security",
+  "name": "ACIP Security",
+  "displayName": "ACIP-FR/EN Protection",
+  "version": "1.3.0",
+  "description": "Advanced Cognitive Inoculation Prompt plugin that protects against prompt injection attacks in French and English",
+  "author": "AB - Optimiz",
+  "email": "security@optimiz.com",
+  "homepage": "https://optimizclaw.ai",
+  "repository": "https://github.com/optimizclaw/openclaw-plugin.git",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "ai-safety",
+    "prompt-injection",
+    "acip",
+    "llm-security",
+    "openclaw",
+    "optimiz"
+  ],
+  "categories": [
+    "Security"
+  ],
+  "compatibility": {
+    "openclaw": ">=2.0.0",
+    "node": ">=18.0.0"
+  },
+  "capabilities": {
+    "messageFiltering": true,
+    "attackDetection": true,
+    "monitoring": true,
+    "commands": true,
+    "dashboards": true
+  },
+  "channels": [
+    "discord",
+    "slack",
+    "telegram",
+    "nextcloud-talk",
+    "matrix",
+    "whatsapp"
+  ],
+  "defaultSettings": {
+    "enabled": true,
+    "acipVersion": "v1.1",
+    "language": "fr",
+    "autoBlockThreshold": 3,
+    "enableLogging": true
+  }
+}
